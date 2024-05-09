@@ -1,0 +1,13 @@
+
+body {
+background-color: #bee6cd;
+}
+
+
+
+h1, p, a, li, th, td {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
