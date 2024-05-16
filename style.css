@@ -1,13 +1,39 @@
 
 body {
-background-color: #bee6cd;
+background: #bee6cd;
 }
 
+.topnav a{
+  background-color:#d5bdaf;
+  overflow:hidden;
+}
 
+.topnav a{
+  float:left;
+  color#e3d5ca;
+  text-align:center; 
+  padding:12px 14px;
+  text-decoration:none;
+  font-size:16px;
+  font-family:"cormorant", serif;
+}
+.topnav a:hover {
+  background-color:#edede9;
+  color:;
+}
+.topnav a.active { 
+  background-color:edede9;
+  color: ;
+}
+hr.new1{
+  border:2px solid #d6ccc2;
+  border-color:#d6cc2;
+}
+}
 
 h1, p, a, li, th, td {
-  font-family: "Quicksand", sans-serif;
+  font-family: "Dosis", sans-serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
-}
+ text-align: center; 
