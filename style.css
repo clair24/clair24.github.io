@@ -1,21 +1,27 @@
 
 body {
-background: #bee6cd;
+  background: #bee6cd;
 }
 
-.topnav a{
+p, h1, li, th, td, a {
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.topnav {
   background-color:#d5bdaf;
   overflow:hidden;
 }
 
-.topnav a{
+.topnav a {
   float:left;
   color#e3d5ca;
   text-align:center; 
   padding:12px 14px;
   text-decoration:none;
   font-size:16px;
-  font-family:"cormorant", serif;
 }
 .topnav a:hover {
   background-color:#edede9;
@@ -25,15 +31,7 @@ background: #bee6cd;
   background-color:edede9;
   color: ;
 }
-hr.new1{
-  border:2px solid #d6ccc2;
-  border-color:#d6cc2;
-}
+ol {
+  list-style-type: none;
 }
 
-h1, p, a, li, th, td {
-  font-family: "Dosis", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
- text-align: center; 
